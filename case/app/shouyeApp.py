@@ -60,7 +60,7 @@ class AndroidTests(unittest.TestCase):
         self.assertEqual(forumDetailText.text,"帖子详情")
         self.assertEqual(bb,cc.text)
 
-
+#######
     def testshouye01_03(self):
         '''验证评论帖子功能'''
         self.driver.implicitly_wait(30)
